@@ -1,0 +1,13 @@
+Cultivar B: N = 71 | Média = 94.549 | Mediana = 88.000 | DP = 16.753
+Cultivar C: N = 48 | Média = 99.312 | Mediana = 97.000 | DP = 10.890
+
+Shapiro-Wilk:
+B: W = 0.7790, p = 5.792e-09
+C: W = 0.9496, p = 0.0387
+
+Levene: estatística = 0.6048, p = 0.4383
+
+Teste utilizado: Kruskal-Wallis
+Estatística = 11.8836, p = 0.0006
+Conferência (Mann-Whitney): U = 1068.5, p = 0.0006
+Conclusão: existe diferença estatisticamente significativa entre os cultivares.

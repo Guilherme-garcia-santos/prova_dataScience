@@ -1,0 +1,20 @@
+            pop_n  amostra_n  pop_%  amostra_%
+cultivar                                      
+Cultivar A     59         12   33.1       33.3
+Cultivar B     71         14   39.9       38.9
+Cultivar C     48         10   27.0       27.8
+n da amostra = 36
+       População  Amostra
+count      178.0     36.0
+mean       746.9    770.1
+std        314.9    347.0
+min        278.0    278.0
+25%        500.5    495.0
+50%        673.5    642.5
+75%        985.0   1068.8
+max       1680.0   1480.0
+sigma populacional = 314.02
+erro-padrão teórico (sigma/raiz(n)) = 52.34
+desvio-padrão observado das médias = 56.33
+sigma / EP teórico = 6.00 | sigma / EP observado = 5.57
+média das médias = 747.0 | média populacional = 746.9

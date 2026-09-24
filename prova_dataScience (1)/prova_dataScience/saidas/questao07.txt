@@ -1,0 +1,35 @@
+ITEM (A) — MATRIZ DE CORRELAÇÃO
+                              alcohol  ...  proline
+alcohol                          1.00  ...     0.64
+malic_acid                       0.09  ...    -0.19
+ash                              0.21  ...     0.22
+alcalinity_of_ash               -0.31  ...    -0.44
+magnesium                        0.27  ...     0.39
+total_phenols                    0.29  ...     0.50
+flavanoids                       0.24  ...     0.49
+nonflavanoid_phenols            -0.16  ...    -0.31
+proanthocyanins                  0.14  ...     0.33
+color_intensity                  0.55  ...     0.32
+hue                             -0.07  ...     0.24
+od280/od315_of_diluted_wines     0.07  ...     0.31
+proline                          0.64  ...     1.00
+
+[13 rows x 13 columns]
+
+Pares com |r| > 0,7:
+Variável 1                   Variável 2      r    |r|
+flavanoids od280/od315_of_diluted_wines 0.7872 0.7872
+
+ITEM (B) — Par de maior |r|: flavanoids × od280/od315_of_diluted_wines (n = 178)
+t manual = 16.9340
+p manual (distribuição t, 176 g.l.) = 8.604e-39
+pearsonr: r = 0.7872, p = 8.604e-39
+p < 0,05: rejeita-se H0 de ausência de correlação linear.
+
+ITEM (C) — Shapiro-Wilk
+flavanoids: W = 0.9545, p = 1.679e-05 -> rejeita normalidade
+od280/od315_of_diluted_wines: W = 0.9450, p = 2.316e-06 -> rejeita normalidade
+
+Pearson  r   = 0.7872
+Spearman rho = 0.7415 (p = 2.513e-32)
+Kendall  tau = 0.5204 (p = 9.450e-25)

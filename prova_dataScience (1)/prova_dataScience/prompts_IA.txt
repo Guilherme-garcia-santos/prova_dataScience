@@ -1,0 +1,32 @@
+PROMPTS DE IA GENERATIVA UTILIZADOS — AV1 DATA SCIENCE
+Ferramentas: Claude (Anthropic) [acrescentar outras, se usadas]
+
+Questão 1
+- [colar os prompts]
+
+Questão 2
+- [colar os prompts]
+
+Questão 3
+- [colar os prompts]
+
+Questão 4
+- [colar os prompts]
+
+Questão 5
+- [colar os prompts]
+
+Questão 6
+- [colar os prompts]
+
+Questão 7
+- [colar os prompts]
+
+Questão 8
+- [colar os prompts]
+
+Questão 9
+- [colar os prompts]
+
+Questão 10
+- [colar os prompts]

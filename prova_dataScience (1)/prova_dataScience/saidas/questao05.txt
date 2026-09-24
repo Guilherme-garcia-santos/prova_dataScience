@@ -1,0 +1,86 @@
+  Cultivar                     Variável   Média  Mediana  Desvio-padrão  CV (%)
+Cultivar A                      alcohol   13.74    13.75           0.46    3.36
+Cultivar A                   malic_acid    2.01     1.77           0.69   34.24
+Cultivar A                          ash    2.46     2.44           0.23    9.25
+Cultivar A            alcalinity_of_ash   17.04    16.80           2.55   14.95
+Cultivar A                    magnesium  106.34   104.00          10.50    9.87
+Cultivar A                total_phenols    2.84     2.80           0.34   11.93
+Cultivar A                   flavanoids    2.98     2.98           0.40   13.33
+Cultivar A         nonflavanoid_phenols    0.29     0.29           0.07   24.15
+Cultivar A              proanthocyanins    1.90     1.87           0.41   21.70
+Cultivar A              color_intensity    5.53     5.40           1.24   22.40
+Cultivar A                          hue    1.06     1.07           0.12   10.97
+Cultivar A od280/od315_of_diluted_wines    3.16     3.17           0.36   11.31
+Cultivar A                      proline 1115.71  1095.00         221.52   19.85
+Cultivar B                      alcohol   12.28    12.29           0.54    4.38
+Cultivar B                   malic_acid    1.93     1.61           1.02   52.55
+Cultivar B                          ash    2.24     2.24           0.32   14.05
+Cultivar B            alcalinity_of_ash   20.24    20.00           3.35   16.55
+Cultivar B                    magnesium   94.55    88.00          16.75   17.72
+Cultivar B                total_phenols    2.26     2.20           0.55   24.14
+Cultivar B                   flavanoids    2.08     2.03           0.71   33.91
+Cultivar B         nonflavanoid_phenols    0.36     0.37           0.12   34.09
+Cultivar B              proanthocyanins    1.63     1.61           0.60   36.93
+Cultivar B              color_intensity    3.09     2.90           0.92   29.97
+Cultivar B                          hue    1.06     1.04           0.20   19.21
+Cultivar B od280/od315_of_diluted_wines    2.79     2.83           0.50   17.83
+Cultivar B                      proline  519.51   495.00         157.21   30.26
+Cultivar C                      alcohol   13.15    13.16           0.53    4.03
+Cultivar C                   malic_acid    3.33     3.26           1.09   32.63
+Cultivar C                          ash    2.44     2.38           0.18    7.58
+Cultivar C            alcalinity_of_ash   21.42    21.00           2.26   10.54
+Cultivar C                    magnesium   99.31    97.00          10.89   10.97
+Cultivar C                total_phenols    1.68     1.64           0.36   21.26
+Cultivar C                   flavanoids    0.78     0.68           0.29   37.56
+Cultivar C         nonflavanoid_phenols    0.45     0.47           0.12   27.74
+Cultivar C              proanthocyanins    1.15     1.10           0.41   35.44
+Cultivar C              color_intensity    7.40     7.55           2.31   31.24
+Cultivar C                          hue    0.68     0.66           0.11   16.76
+Cultivar C od280/od315_of_diluted_wines    1.68     1.66           0.27   16.16
+Cultivar C                      proline  629.90   627.50         115.10   18.27
+
+CV médio entre os três cultivares (%):
+Variável
+malic_acid                      39.81
+proanthocyanins                 31.36
+nonflavanoid_phenols            28.66
+flavanoids                      28.27
+color_intensity                 27.87
+proline                         22.79
+total_phenols                   19.11
+hue                             15.65
+od280/od315_of_diluted_wines    15.10
+alcalinity_of_ash               14.01
+magnesium                       12.85
+ash                             10.29
+alcohol                          3.92
+Name: CV (%), dtype: float64
+
+Três variáveis com maior CV médio: ['malic_acid', 'proanthocyanins', 'nonflavanoid_phenols']
+
+Outliers (1,5×IQR) por cultivar:
+            malic_acid  proanthocyanins  nonflavanoid_phenols
+cultivar                                                     
+Cultivar A           9                4                     4
+Cultivar B           7                8                     0
+Cultivar C           0                2                     1
+
+Cultivar mais homogêneo (menor CV) em cada variável:
+Variável
+alcalinity_of_ash               Cultivar C
+alcohol                         Cultivar A
+ash                             Cultivar C
+color_intensity                 Cultivar A
+flavanoids                      Cultivar A
+hue                             Cultivar A
+magnesium                       Cultivar A
+malic_acid                      Cultivar C
+nonflavanoid_phenols            Cultivar A
+od280/od315_of_diluted_wines    Cultivar A
+proanthocyanins                 Cultivar A
+proline                         Cultivar C
+total_phenols                   Cultivar A
+
+Contagem:
+Cultivar A    9
+Cultivar C    4

@@ -1,0 +1,11 @@
+       Variável  Skewness             Classificação
+      magnesium    1.0982     Assimétrica à direita
+     malic_acid    1.0397     Assimétrica à direita
+proanthocyanins    0.5171     Assimétrica à direita
+            hue    0.0211 Aproximadamente simétrica
+
+       Variável   Média  Mediana  Outliers      W  p-valor Normal (α=0,05)?
+      magnesium 99.7416   98.000         4 0.9383   0.0000              Não
+     malic_acid  2.3363    1.865         3 0.8888   0.0000              Não
+proanthocyanins  1.5909    1.555         2 0.9807   0.0145              Não
+            hue  0.9574    0.965         1 0.9813   0.0174              Não

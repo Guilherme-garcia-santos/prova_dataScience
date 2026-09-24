@@ -1,0 +1,30 @@
+Shapiro-Wilk:
+A: W = 0.6470, p = 1.203e-10
+B: W = 0.8339, p = 1.840e-07
+C: W = 0.9837, p = 0.7377
+
+Levene: estatística = 6.3579, p = 0.0022
+
+Teste: Kruskal-Wallis
+H = 50.0449
+p = 1.358e-11
+
+Há diferença significativa entre pelo menos dois cultivares.
+
+Tukey HSD:
+    Multiple Comparison of Means - Tukey HSD, FWER=0.05    
+===========================================================
+  group1     group2   meandiff p-adj   lower  upper  reject
+-----------------------------------------------------------
+Cultivar A Cultivar B   -0.078 0.8855 -0.4703 0.3143  False
+Cultivar A Cultivar C   1.3231    0.0  0.8902 1.7559   True
+Cultivar B Cultivar C   1.4011    0.0  0.9849 1.8172   True
+-----------------------------------------------------------
+
+Conferência: Mann-Whitney par a par com correção de Bonferroni
+Cultivar A × Cultivar B: p ajustado = 0.05219 -> não difere
+Cultivar A × Cultivar C: p ajustado = 8.789e-09 -> difere
+Cultivar B × Cultivar C: p ajustado = 1.785e-09 -> difere
+
+Médias:   A = 2.0107 | B = 1.9327 | C = 3.3337
+Medianas: A = 1.7700 | B = 1.6100 | C = 3.2650
